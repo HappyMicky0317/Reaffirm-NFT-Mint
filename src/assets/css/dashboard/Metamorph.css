@@ -1,0 +1,120 @@
+.content-meta {
+  background-color: #072036;
+  padding: 0px 190px;
+  padding-top: 150px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.nft-img-part {
+  margin: 0;
+}
+.nft-img {
+  width: 553px;
+  height: 441px;
+  border-radius: 32px;
+}
+.description-part {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.md-description {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #00e4d1;
+}
+.lg-description {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.sm-description {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1599px) {
+  .content-meta {
+    padding: 0px 90px;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  /* .content-meta {
+    padding: 0px 50px;
+    padding-top: 150px;
+  } */
+  .nft-img {
+    width: 450px;
+    height: 359px;
+    border-radius: 32px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .description-part {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .content-meta {
+    padding: 0px 50px;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .content-meta {
+    padding: 0px 5px;
+    padding-top: 100px;
+  }
+  .nft-img-part {
+    text-align: center;
+    padding: 0;
+  }
+  .description-part {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .nft-img {
+    width: 400px;
+    height: 319px;
+    border-radius: 25px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .nft-img {
+    width: 320px;
+    height: 255px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .nft-img {
+    width: 270px;
+    height: 215px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .nft-img {
+    width: 240px;
+    height: 191px;
+    border-radius: 20px;
+  }
+}
